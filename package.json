@@ -1,6 +1,6 @@
 {
   "name": "@lyngs/digger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "use digger() to (get/set) value, from deep inside of an (object/array).",
   "main": "src/index.js",
   "directories": {
