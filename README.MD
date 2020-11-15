@@ -16,9 +16,9 @@ npm install @lyngs/digger
 import digger from '@lyngs/digger';
 
 const target = {
-	people: [
-		{ name: 'shook' }
-	],
+  people: [
+    { name: 'shook' }
+  ],
 };
 
 console.log(digger(target, 'people[0].name')); // 'shook'
