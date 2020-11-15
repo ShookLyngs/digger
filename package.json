@@ -14,14 +14,15 @@
     "type": "git",
     "url": "git+https://github.com/ShookLyngs/digger.git"
   },
-  "author": "ShookLyngs",
+  "author": "lyngs",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ShookLyngs/digger/issues"
   },
   "homepage": "https://github.com/ShookLyngs/digger#readme",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "object",
