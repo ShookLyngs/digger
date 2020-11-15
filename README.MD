@@ -1,7 +1,7 @@
 # @lyngs/digger
 
 ## What is this
-This package provides function to dig value out of target.
+`@lyngs/digger` provides a function for user to dig value out of a target.
 Use `digger()` method to `get`or`set` value, from deep inside of an `object`or`array`.
 
 ## Install
@@ -44,7 +44,7 @@ digger(target, 'people[0].name', () => 'oral'); // [Function (anonymous)]
 digger(target, 'people[0].name', () => 'oral', { untie: true }); // 'oral'
 ```
 
-### Compiles and minifies for production
+### Build
 ```
 npm run build
 ```
