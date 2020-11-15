@@ -25,6 +25,7 @@ describe('set by digger()', () => {
   });
 
   it(`set value by passing update(), with no extra setting`, () => {
+    console.log(digger(usage, 'people[0].name', () => 'shook-edited-2'));
     expect(digger(usage, 'people[0].name', () => 'shook-edited-2')).to.be.a('function');
   });
 
