@@ -21,8 +21,7 @@
   },
   "homepage": "https://github.com/ShookLyngs/digger#readme",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}"
+    "access": "public"
   },
   "keywords": [
     "object",
