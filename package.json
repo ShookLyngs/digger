@@ -22,7 +22,7 @@
   "homepage": "https://github.com/ShookLyngs/digger#readme",
   "publishConfig": {
     "access": "public",
-    "registry": "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}"
+    "registry": "https://registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}"
   },
   "keywords": [
     "object",
