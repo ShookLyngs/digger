@@ -1,6 +1,6 @@
 
 import { expect } from 'chai';
-import digger from '../src';
+import digger from '../dist';
 
 const usage = {
   current: 0,
