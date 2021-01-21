@@ -54,6 +54,13 @@ const removeEmptyInArray = array => array.filter(value => !!value);
  */
 const removeQuotesInString = string => string.replace(/(['"])/g, '');
 
+/**
+ * Blacklist certain keys to prevent Prototype Pollution
+ * @param key {string}
+ * @returns {boolean}
+ */
+const isPrototypePolluted = key => ['__proto__', 'constructor', 'prototype'].includes(key);
+
 // main function
 
 /**
@@ -84,6 +91,9 @@ const digger = (
 
   for (index = 0; index < classified.length; index++) {
     let current = classified[index];
+    
+    if (isPrototypePolluted(current))
+      continue;
 
     if (isQuoted(current)) {
       current = removeQuotesInString(current);
